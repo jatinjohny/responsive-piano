@@ -29,6 +29,7 @@ html {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 .key:first-of-type {
@@ -52,4 +53,16 @@ html {
   position: relative;
   left: -18px;
   border-radius: 0 0 5px 5px;
+}
+
+@media (max-width: 768px) {
+  #piano {
+    width: 360px;
+  }
+  #keys {
+    width: 320px;
+  }
+  .logo {
+    width: 150px;
+  }
 }
